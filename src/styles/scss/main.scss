@@ -1,0 +1,52 @@
+@import "custom/variables";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  background-color: #ffffff !important;
+  margin: 0;
+  font-family:"Poppins", serif;
+}
+
+
+html {
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-tap-highlight-color: transparent; 
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $primary-color;
+  border-radius: 5px;
+}
+
+.marquee {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: flex;
+  animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move left by half the width of the content */
+  }
+}
