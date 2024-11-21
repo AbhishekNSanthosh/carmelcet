@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./components/Banner";
 import AboutCCET from "@widgets/common/About";
 import Philosophy from "./components/Philosophy";
+import Recruiters from "@widgets/common/Recruiters";
 
 export default function LandingPageView() {
   return (
@@ -11,6 +12,9 @@ export default function LandingPageView() {
         <AboutCCET />
       </div>
       <Philosophy/>
+      <div className="py-[6vh]">
+        <Recruiters />
+      </div>
     </div>
   );
 }

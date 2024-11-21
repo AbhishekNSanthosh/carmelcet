@@ -82,5 +82,13 @@ export const believes = {
         "Equip the students to accomplish career goals upholding moral values.",
         "Encourage the students to contribute for the sustainable development of the society."
     ]
-
 }
+
+export const recuitersImages = [
+    "/recruiters/bosch.png",
+    "/recruiters/emigo.png",
+    "/recruiters/fed.png",
+    "/recruiters/intercad.png",
+    "/recruiters/sutherland.png",
+    "/recruiters/tcs.png",
+]
