@@ -7,7 +7,7 @@ export default function AboutCCET() {
   return (
     <div className="px-[5vw] py-[5vh] text-gray-700 flex flex-col space-y-10">
       <div className="">
-        <Titlebar title="About" secondTitle="CCET" />
+        <Titlebar title="About" secondTitle="CCET"/>
       </div>
       <div className="flex flex-row space-x-5">
         <div className="flex-1 flex items-start justify-center flex-col gap-4 pr-32">
